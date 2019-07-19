@@ -1,0 +1,2 @@
+addEventListener("DOMContentLoaded",function(){var i=0,a=Array.prototype.slice.call(document.getElementById("video_slider_tabs").children),e=document.getElementById("video_slider_container"),r=Array.prototype.slice.call(e.children),l=Array.prototype.slice.call(e.querySelectorAll("video"));a.forEach(function(e,t){var c;e.addEventListener("click",(c=t,function(){a[i].classList.remove("active"),r[i].classList.remove("active"),l[i].pause(),l[i].currentTime=0,a[i=c].classList.add("active"),r[i].classList.add("active")}))})});
+
